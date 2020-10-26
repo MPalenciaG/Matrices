@@ -18,7 +18,7 @@ posteriormente le pide rellenar la matriz
     for(i=0;i<filas;i++){
       for(j=0;j<columnas;j++){
         printf("Digite el numero de la Matriz [%i][%i]: ", i,j);
-        scanf("%i ", &matriz [i][j]);
+        scanf("%i", &matriz [i][j]);
       }
     printf("\n");
   }
