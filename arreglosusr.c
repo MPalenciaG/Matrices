@@ -25,10 +25,11 @@ posteriormente le pide rellenar la matriz
 
 //Imprime la matriz
     for (i=0;i<filas;i++){
+      printf("( ");
       for (j=0;j<columnas;j++){
         printf("%i ",matriz[i][j]);
       }
-      printf("\n");
+      printf(" )\n");
     }
 
    return 0;
