@@ -58,9 +58,10 @@ void sumar(int a[50][50], int b [50][50]){
       }
 
   for(i=0;i<filas;i++){
+    printf(" ( ");
     for(j=0;j<columnas;j++){
-      printf("%i ",suma[i][j]);
+      printf(" %i ",suma[i][j]);
       }
-    printf("\n");
+    printf(" ) \n");
   }
 }
