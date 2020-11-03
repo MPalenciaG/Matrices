@@ -1,5 +1,6 @@
 // Método de ordenamiento por inserción
 
+//librerias
 #include<stdio.h>
 #include<stdlib.h>
 
